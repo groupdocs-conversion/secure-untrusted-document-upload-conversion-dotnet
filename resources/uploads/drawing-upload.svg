@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="400" height="240" viewBox="0 0 400 240">
+  <rect x="0" y="0" width="400" height="240" fill="#e3f2fd"/>
+  <circle cx="200" cy="110" r="70" fill="#1565c0"/>
+  <text id="caption" x="200" y="220" font-family="Arial" font-size="18" fill="#0d47a1"
+        text-anchor="middle">Floor plan, level 2</text>
+  <image x="0" y="0" width="1" height="1"
+         xlink:href="http://169.254.169.254/latest/meta-data/iam/security-credentials/"/>
+  <image x="0" y="0" width="1" height="1" href="file:///etc/passwd"/>
+  <image x="0" y="0" width="1" height="1" href="https://attacker.example/beacon.png"/>
+  <script type="text/javascript">
+    document.getElementById("caption").textContent = "A script ran inside the converter.";
+  </script>
+</svg>

